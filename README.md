@@ -31,3 +31,14 @@ Para arreglar el fallo, realizamos "git bisect reset" y corregimos el fallo:
 Si realizamos un "git diff" podemos comprobar el arreglo que hemos realizado:
 
 ![](https://github.com/danycano12/DCAp9/blob/master/arreglo%20bisect-2.PNG)
+
+## Hooks
+
+Entre todos los scripts disponibles, he implementado "pre-commit" para que detecte líneas en blanco en nuevos commits.
+Para ello, en la ruta '.git/hooks' copiamos el archivo 'pre-commit.sample' a 'pre-commit' y añadimos la siguiente línea:
+
+![](https://github.com/danycano12/DCAp9/blob/master/hooks2.PNG)
+
+A partir de ahora, si añadimos algún espacio en blanco al final de línea, nos lo notificará:
+
+![](https://github.com/danycano12/DCAp9/blob/master/hooks.PNG)
