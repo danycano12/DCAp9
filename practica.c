@@ -23,6 +23,7 @@ int main()
   scanf("%f", &d);
   c = a + b + d;
   printf(_("La suma de los tres es: "));
+  printf(_("Nueva linea con hooks pre-commit"));
   printf("%f", c);
   printf("\n");
 
