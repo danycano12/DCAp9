@@ -19,6 +19,8 @@ int main()
   scanf("%f", &a);
   printf(_("Introduce el segundo numero: \n"));
   scanf("%f", &b);
+  printf(_("Introduce el tercer numero: \n"));
+  scanf("%f", &d);
   c = a + b - d;
   printf(_("La suma es: "));
   printf("%f", c);
