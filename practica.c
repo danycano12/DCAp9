@@ -22,7 +22,7 @@ int main()
   printf(_("Introduce el tercer numero: \n"));
   scanf("%f", &d);
   c = a + b - d;
-  printf(_("La suma es: "));
+  printf(_("La suma de los tres es: "));
   printf("%f", c);
   printf("\n");
 
