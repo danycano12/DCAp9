@@ -8,18 +8,18 @@
 
 int main()
 {
-  float a, b, c;
+  float a, b, c, d;
 
   /* Setting the i18n environment */
   setlocale (LC_ALL, "");
   bindtextdomain ("hello", "/usr/share/locale/");
   textdomain ("hello");
-  printf(_("PROGRAMA DE SUMA DE DOS NUMEROS\n"));
+  printf(_("PROGRAMA DE SUMA DE TRES NUMEROS\n"));
   printf(_("Introduce el primer numero: \n"));
   scanf("%f", &a);
   printf(_("Introduce el segundo numero: \n"));
   scanf("%f", &b);
-  c = a + b;
+  c = a + b - d;
   printf(_("La suma es: "));
   printf("%f", c);
   printf("\n");
